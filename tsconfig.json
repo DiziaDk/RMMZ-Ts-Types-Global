@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "None",
+        "lib": ["DOM", "ES2020", "DOM.Iterable", "ScriptHost"],
+        "allowJs": false,
+        "checkJs": false,
+        "noEmitOnError": true,
+        "outDir": "./output",
+        "rootDir": ".",
+        "strict": false,
+        "baseUrl": ".",
+        "noImplicitOverride": true
+    },
+    "include": [
+        "./types/libs/PIXI.d.ts",  // Explicit order required: PIXI must load before RMMZ Core to prevent dependency errors.
+        "./types/rmmz_core.d.ts",
+        "./types/plugins/Dikarier_Core.d.ts",
+        "./types/plugins/ABSZ.d.ts",
+        "./types/plugins/Dikarier_WeatherControl.d.ts",
+        "./types/plugins/Dikarier_EffectSystem.d.d.ts", 
+        "./**/*.ts"
+    ],
+    "exclude": [
+        "../js/**/*",
+        "./output/**/*",
+        "node_modules"
+    ]
+}
