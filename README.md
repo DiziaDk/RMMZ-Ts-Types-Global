@@ -31,6 +31,7 @@ The `types/` folder contains definitions configured for global access:
 2.  **PIXI.js:** Adjusted specifically for RMMZ compatibility.
 3.  **Plugin Declarations (`types/plugins/`):**
     *   **Alpha ABS Z (ABSZ):** Full types for Phoenix KageDesu's Action Battle System (`KDCore`, `AA`, `uAPI`).
+    *   **DKPlugins:** Type definitions for **DK Game Time** (by DK).
     *   **Dikarier Ecosystem:** Types for Dikarier Core, WeatherControl, and EffectSystem.
     *   *Note on EffectSystem:* API is currently provisional due to source obfuscation.
 

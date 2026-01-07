@@ -31,6 +31,7 @@
 2.  **PIXI.js:** Адаптированная версия для совместимости с RMMZ (загружается первой).
 3.  **Плагины (`types/plugins/`):**
     *   **Alpha ABS Z (ABSZ):** Полные типы для боевой системы от Phoenix KageDesu (пространства имен `KDCore`, `AA`, `uAPI`).
+    *   **DKPlugins:** Типы для **DK Game Time** (от DK).
     *   **Dikarier Ecosystem:** Типы для Dikarier Core, WeatherControl и EffectSystem.
     *   *Примечание по EffectSystem:* API является предварительным, так как исходный код пока обфусцирован.
 

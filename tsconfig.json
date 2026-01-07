@@ -19,6 +19,7 @@
         "./types/plugins/ABSZ.d.ts",
         "./types/plugins/Dikarier_WeatherControl.d.ts",
         "./types/plugins/Dikarier_EffectSystem.d.d.ts", 
+        "./types/plugins/DK_Game_Time.d.d.d.ts",
         "./**/*.ts"
     ],
     "exclude": [
