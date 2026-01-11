@@ -4642,7 +4642,7 @@ declare class Window_Base extends RMMZWindow {
     drawRect(x: number, y: number, width: number, height: number): void;
     drawText(text: string, x: number, y: number, maxWidth: number, align?: string): void;
     textWidth(text: string): number;
-    drawTextEx(text: string, x: number, y: number, width: number): number;
+    drawTextEx(text: string, x: number, y: number, width?: number): number;
     textSizeEx(text: string): { width: number; height: number };
     createTextState(text: string, x: number, y: number, width: number): any;
     processAllText(textState: any): void;

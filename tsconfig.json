@@ -13,13 +13,12 @@
         "noImplicitOverride": true
     },
     "include": [
-        "./types/libs/PIXI.d.ts",  // Explicit order required: PIXI must load before RMMZ Core to prevent dependency errors.
+        "./types/libs/PIXI.d.ts",
         "./types/rmmz_core.d.ts",
         "./types/plugins/Dikarier_Core.d.ts",
         "./types/plugins/ABSZ.d.ts",
         "./types/plugins/Dikarier_WeatherControl.d.ts",
-        "./types/plugins/Dikarier_EffectSystem.d.d.ts", 
-        "./types/plugins/DK_Game_Time.d.d.d.ts",
+        "./types/plugins/drtp.d.ts",
         "./**/*.ts"
     ],
     "exclude": [
